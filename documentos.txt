@@ -1,0 +1,169 @@
+import { useNavigate } from 'react-router-dom'
+import { obtenerRoles } from "../components/api/apiFetch"
+import { useState } from "react"
+import ButtonForm from '../components/buttons/ButtonForm'
+
+//variable de control para saber si recibimos roles del Backend o no
+var yaRoles=0
+
+//var para guardar los roles una vez recibidos en formato html
+var salvarRoles = [
+    // <li class="collection-item teal-text" >
+    //   <a className="teal-text" style={{ paddingRight:80}}>
+    //     Roles
+    //   </a>
+    //   <a class="" style={{ paddingRight:20}} >
+    //     <ButtonForm
+    //       tipo='submit'
+    //       titulo='Editar'
+    //       clases='waves-effect waves-light btn'
+    //     />
+    //   </a>
+    //   <a class="" >
+    //     <ButtonForm
+    //       tipo='submit'
+    //       titulo='Eliminar'
+    //       clases='waves-effect waves-light btn'
+    //     />
+    //   </a>
+    // </li>,
+    // <li class="collection-item teal-text">Roles</li>,
+    // <li class="collection-item teal-text">Roles</li>
+]
+
+export function Correctos({ user, setRoles,rolesHtml}) {//recibo de localstorage roles
+  const navigate = useNavigate()//para navegar a otro endpoint
+
+  //estos metodos usan el useState para refreshear la vista de react cuando haya un cambio en esa variable
+  //var para enviar la peticion a mi fetch.js
+  // const [idRol, setRol] = useState('')
+  // const [nombreRol, setPermisos] = useState('')
+ // const [permiso, setPermiso] = useState('')
+ // const [nPermiso, setnPermiso] = useState('')
+  const [x, setX] = useState(0)
+  
+  // const verPermisos={
+  //   idPermiso:permiso,
+  //   nombrePermiso:nPermiso
+  // }
+  // var salvarPermisos = []
+
+  //modelo para ejecutar mi funcion de fetch
+  var idRol=''
+  var nombreRol=''
+  const verRoles = {
+    id: idRol,
+    nombre: nombreRol
+  }
+
+  //Paso 1. Le envia la peticion al back para obtener roles
+  //obtenerRoles('/roles', verRoles)
+  if (yaRoles==0){
+    //por alguna razon hace esta funcion 2 veces seguiditas
+    obtenerRoles('/roles')
+      //2. Si lo obtiene, lo guarda en localstorage
+      .then((roles) => {
+        //cuando lo recibo, actualizo la vista con setX
+        yaRoles=1
+        //para cada rol que me regresa en json, lo guardo
+        var y = 0
+        for (let rolsitos in roles) {//aqui itera bien si el json que me dan solo tiene un a llave, pero nose como lleguen
+          y = y + 1
+          //console.log(roles[y])
+          salvarRoles.push(
+            <li className="collection-item teal-text" >
+              <a className="teal-text" style={{ paddingRight: 80 }}>
+                {roles[rolsitos]}
+              </a>
+              <a className="" style={{ paddingRight: 20 }} >
+                <ButtonForm
+                  tipo='submit'
+                  titulo='Editar'
+                  clases='waves-effect waves-light btn'
+                />
+              </a>
+              <a className="" >
+                <ButtonForm
+                  tipo='submit'
+                  titulo='Eliminar'
+                  clases='waves-effect waves-light btn'
+                />
+              </a>
+            </li>
+          )
+        }/*
+        let container = document.getElementById("container");
+        for (let line of htmlLines) {
+          container.innerHTML += line;
+        }*/
+
+        localStorage.setItem('roles', JSON.stringify(roles))
+        console.log(roles[5])
+        setX(1)
+      })
+      .catch((error) => {
+        console.error("Rol. Error al obtener los roles:", error)
+        alert("Rol. Error al obtener los roles")
+        //navigate('/home')
+        setX(0)
+      })
+  }
+  //ya que obtuvo los roles, debe de imprimir la tabla
+
+  /*
+  var rolesHtml=<li class="collection-header">prueba</li>
+  for (let i = 1; i >0; i--) {
+    rolesHtml=rolesHtml 
+  }*/
+
+  // console.log(localStorage.getItem('roles'))
+  // console.log("en la funcion principal")
+  // console.log(salvarRoles)
+  //obtenerRoles()
+
+  //boton para crear un nuevo rol
+  const handleSudmit = (e) => {
+    //e.preventDefault();//detener el reload de la pagina web
+    console.log("boton precionadoo")
+    navigate('/new-rol')
+  }
+
+  //console.log(x)
+  if (x == 1) {
+    //console.log("deberia imprimir")
+    //console.log(salvarRoles[1])
+    //console.log("imprimee")
+    return (
+      <div >
+        <div className="truncate center-align" style={{ justifyContent: 'center' }}>
+          <h4 >Roles</h4>
+        </div>
+
+        <div className="row" style={{ justifyContent: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <ul class="collection">
+              {salvarRoles}
+            </ul>
+          </div>
+          <form className='formulario' onSubmit={handleSudmit}>
+            <div className="center-align">
+              <ButtonForm
+                tipo='submit'
+                titulo='Agregar nuevo Rol'
+                clases='waves-effect waves-light btn'
+              />
+            </div>
+          </form>
+        </div>
+
+      </div>
+    )
+  } else {
+    return (
+      <div>No se recibio ningun rol</div>
+    )
+  }
+
+}
+
+export default Correctos
