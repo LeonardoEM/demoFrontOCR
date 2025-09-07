@@ -1,0 +1,291 @@
+{
+  "autobuses2": [
+    {
+      "id": "1",
+      "placa": "ABC-001",
+      "numeroEconomico": "10001",
+      "marcaEconomica": "Volvo",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "2",
+      "placa": "ABC-002",
+      "numeroEconomico": "10002",
+      "marcaEconomica": "Scania",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "3",
+      "placa": "ABC-003",
+      "numeroEconomico": "10003",
+      "marcaEconomica": "MAN",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "4",
+      "placa": "ABC-004",
+      "numeroEconomico": "10004",
+      "marcaEconomica": "Mercedes-Benz",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "5",
+      "placa": "ABC-005",
+      "numeroEconomico": "10005",
+      "marcaEconomica": "Volvo",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "6",
+      "placa": "ABC-006",
+      "numeroEconomico": "10006",
+      "marcaEconomica": "Iveco",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "7",
+      "placa": "ABC-007",
+      "numeroEconomico": "10007",
+      "marcaEconomica": "Isuzu",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "8",
+      "placa": "ABC-008",
+      "numeroEconomico": "10008",
+      "marcaEconomica": "Renault",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "9",
+      "placa": "ABC-009",
+      "numeroEconomico": "10009",
+      "marcaEconomica": "DAF",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "10",
+      "placa": "ABC-010",
+      "numeroEconomico": "10010",
+      "marcaEconomica": "Hyundai",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "11",
+      "placa": "ABC-011",
+      "numeroEconomico": "10011",
+      "marcaEconomica": "Hino",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "12",
+      "placa": "ABC-012",
+      "numeroEconomico": "10012",
+      "marcaEconomica": "Tata",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "13",
+      "placa": "ABC-013",
+      "numeroEconomico": "10013",
+      "marcaEconomica": "Ashok Leyland",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "14",
+      "placa": "ABC-014",
+      "numeroEconomico": "10014",
+      "marcaEconomica": "BYD",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "15",
+      "placa": "ABC-015",
+      "numeroEconomico": "10015",
+      "marcaEconomica": "Yutong",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "16",
+      "placa": "ABC-016",
+      "numeroEconomico": "10016",
+      "marcaEconomica": "King Long",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "17",
+      "placa": "ABC-017",
+      "numeroEconomico": "10017",
+      "marcaEconomica": "Neoplan",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "18",
+      "placa": "ABC-018",
+      "numeroEconomico": "10018",
+      "marcaEconomica": "Van Hool",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "19",
+      "placa": "ABC-019",
+      "numeroEconomico": "10019",
+      "marcaEconomica": "Setra",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "20",
+      "placa": "ABC-020",
+      "numeroEconomico": "10020",
+      "marcaEconomica": "Temsa",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "21",
+      "placa": "ABC-021",
+      "numeroEconomico": "10021",
+      "marcaEconomica": "Solaris",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "22",
+      "placa": "ABC-022",
+      "numeroEconomico": "10022",
+      "marcaEconomica": "Gillig",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "23",
+      "placa": "ABC-023",
+      "numeroEconomico": "10023",
+      "marcaEconomica": "New Flyer",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "24",
+      "placa": "ABC-024",
+      "numeroEconomico": "10024",
+      "marcaEconomica": "Blue Bird",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "25",
+      "placa": "ABC-025",
+      "numeroEconomico": "10025",
+      "marcaEconomica": "Thomas Built",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "26",
+      "placa": "ABC-026",
+      "numeroEconomico": "10026",
+      "marcaEconomica": "Prevost",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "27",
+      "placa": "ABC-027",
+      "numeroEconomico": "10027",
+      "marcaEconomica": "MCI",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "28",
+      "placa": "ABC-028",
+      "numeroEconomico": "10028",
+      "marcaEconomica": "Alexander Dennis",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "29",
+      "placa": "ABC-029",
+      "numeroEconomico": "10029",
+      "marcaEconomica": "VDL",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "30",
+      "placa": "ABC-030",
+      "numeroEconomico": "10030",
+      "marcaEconomica": "Irizar",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "51",
+      "placa": "ABC-051",
+      "numeroEconomico": "10051",
+      "marcaEconomica": "Golden Dragon",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "52",
+      "placa": "ABC-052",
+      "numeroEconomico": "10052",
+      "marcaEconomica": "Foton",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "53",
+      "placa": "ABC-053",
+      "numeroEconomico": "10053",
+      "marcaEconomica": "Ankai",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "54",
+      "placa": "ABC-054",
+      "numeroEconomico": "10054",
+      "marcaEconomica": "Higer",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "55",
+      "placa": "ABC-055",
+      "numeroEconomico": "10055",
+      "marcaEconomica": "Zhongtong",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "56",
+      "placa": "ABC-056",
+      "numeroEconomico": "10056",
+      "marcaEconomica": "Nissan Diesel",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "57",
+      "placa": "ABC-057",
+      "numeroEconomico": "10057",
+      "marcaEconomica": "Freightliner",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "58",
+      "placa": "ABC-058",
+      "numeroEconomico": "10058",
+      "marcaEconomica": "Peterbilt",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "59",
+      "placa": "ABC-059",
+      "numeroEconomico": "10059",
+      "marcaEconomica": "Kenworth",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "60",
+      "placa": "ABC-060",
+      "numeroEconomico": "10060",
+      "marcaEconomica": "International",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": 3161,
+      "placa": "leonardo cool",
+      "numeroEconomico": "3123",
+      "marcaEconomica": "cascajo UNAM",
+      "esReparto": "No"
+    }
+  ]
+}

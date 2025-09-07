@@ -1,0 +1,334 @@
+{
+  "autobuses": [
+    {
+      "id": "1",
+      "placa": "ABC-001",
+      "numeroEconomico": "10001",
+      "marcaEconomica": "Volvo",
+      "imagenBase64": "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"
+    },
+    {
+      "id": "2",
+      "placa": "ABC-002",
+      "numeroEconomico": "10002",
+      "marcaEconomica": "Scania",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "3",
+      "placa": "ABC-003",
+      "numeroEconomico": "10003",
+      "marcaEconomica": "MAN",
+      "imagenBase64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgBzLrZkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "4",
+      "placa": "ABC-004",
+      "numeroEconomico": "10004",
+      "marcaEconomica": "Mercedes-Benz"
+    },
+    {
+      "id": "5",
+      "placa": "ABC-005",
+      "numeroEconomico": "10005",
+      "marcaEconomica": "Irizar"
+    },
+    {
+      "id": "6",
+      "placa": "ABC-006",
+      "numeroEconomico": "10006",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "7",
+      "placa": "ABC-007",
+      "numeroEconomico": "10007",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "8",
+      "placa": "ABC-008",
+      "numeroEconomico": "10008",
+      "marcaEconomica": "MAN"
+    },
+    {
+      "id": "9",
+      "placa": "ABC-009",
+      "numeroEconomico": "10009",
+      "marcaEconomica": "Neoplan"
+    },
+    {
+      "id": "10",
+      "placa": "ABC-010",
+      "numeroEconomico": "10010",
+      "marcaEconomica": "Mercedes-Benz"
+    },
+    {
+      "id": "11",
+      "placa": "ABC-011",
+      "numeroEconomico": "10011",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "12",
+      "placa": "ABC-012",
+      "numeroEconomico": "10012",
+      "marcaEconomica": "Irizar"
+    },
+    {
+      "id": "13",
+      "placa": "ABC-013",
+      "numeroEconomico": "10013",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "14",
+      "placa": "ABC-014",
+      "numeroEconomico": "10014",
+      "marcaEconomica": "MAN"
+    },
+    {
+      "id": "15",
+      "placa": "ABC-015",
+      "numeroEconomico": "10015",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "16",
+      "placa": "ABC-016",
+      "numeroEconomico": "10016",
+      "marcaEconomica": "Mercedes-Benz"
+    },
+    {
+      "id": "17",
+      "placa": "ABC-017",
+      "numeroEconomico": "10017",
+      "marcaEconomica": "Irizar"
+    },
+    {
+      "id": "18",
+      "placa": "ABC-018",
+      "numeroEconomico": "10018",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "19",
+      "placa": "ABC-019",
+      "numeroEconomico": "10019",
+      "marcaEconomica": "MAN"
+    },
+    {
+      "id": "20",
+      "placa": "ABC-020",
+      "numeroEconomico": "10020",
+      "marcaEconomica": "Neoplan"
+    },
+    {
+      "id": "21",
+      "placa": "ABC-021",
+      "numeroEconomico": "10021",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "22",
+      "placa": "ABC-022",
+      "numeroEconomico": "10022",
+      "marcaEconomica": "Mercedes-Benz"
+    },
+    {
+      "id": "23",
+      "placa": "ABC-023",
+      "numeroEconomico": "10023",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "24",
+      "placa": "ABC-024",
+      "numeroEconomico": "10024",
+      "marcaEconomica": "Irizar"
+    },
+    {
+      "id": "25",
+      "placa": "ABC-025",
+      "numeroEconomico": "10025",
+      "marcaEconomica": "MAN"
+    },
+    {
+      "id": "26",
+      "placa": "ABC-026",
+      "numeroEconomico": "10026",
+      "marcaEconomica": "Neoplan"
+    },
+    {
+      "id": "27",
+      "placa": "ABC-027",
+      "numeroEconomico": "10027",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "28",
+      "placa": "ABC-028",
+      "numeroEconomico": "10028",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "29",
+      "placa": "ABC-029",
+      "numeroEconomico": "10029",
+      "marcaEconomica": "Irizar"
+    },
+    {
+      "id": "30",
+      "placa": "ABC-030",
+      "numeroEconomico": "10030",
+      "marcaEconomica": "MAN"
+    },
+    {
+      "id": "31",
+      "placa": "ABC-031",
+      "numeroEconomico": "10031",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "32",
+      "placa": "ABC-032",
+      "numeroEconomico": "10032",
+      "marcaEconomica": "Mercedes-Benz"
+    },
+    {
+      "id": "33",
+      "placa": "ABC-033",
+      "numeroEconomico": "10033",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "34",
+      "placa": "ABC-034",
+      "numeroEconomico": "10034",
+      "marcaEconomica": "Irizar"
+    },
+    {
+      "id": "35",
+      "placa": "ABC-035",
+      "numeroEconomico": "10035",
+      "marcaEconomica": "MAN"
+    },
+    {
+      "id": "36",
+      "placa": "ABC-036",
+      "numeroEconomico": "10036",
+      "marcaEconomica": "Neoplan"
+    },
+    {
+      "id": "37",
+      "placa": "ABC-037",
+      "numeroEconomico": "10037",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "38",
+      "placa": "ABC-038",
+      "numeroEconomico": "10038",
+      "marcaEconomica": "Mercedes-Benz"
+    },
+    {
+      "id": "39",
+      "placa": "ABC-039",
+      "numeroEconomico": "10039",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "40",
+      "placa": "ABC-040",
+      "numeroEconomico": "10040",
+      "marcaEconomica": "Irizar"
+    },
+    {
+      "id": "41",
+      "placa": "ABC-041",
+      "numeroEconomico": "10041",
+      "marcaEconomica": "MAN"
+    },
+    {
+      "id": "42",
+      "placa": "ABC-042",
+      "numeroEconomico": "10042",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "43",
+      "placa": "ABC-043",
+      "numeroEconomico": "10043",
+      "marcaEconomica": "Mercedes-Benz"
+    },
+    {
+      "id": "44",
+      "placa": "ABC-044",
+      "numeroEconomico": "10044",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "45",
+      "placa": "ABC-045",
+      "numeroEconomico": "10045",
+      "marcaEconomica": "Irizar"
+    },
+    {
+      "id": "46",
+      "placa": "ABC-046",
+      "numeroEconomico": "10046",
+      "marcaEconomica": "MAN"
+    },
+    {
+      "id": "47",
+      "placa": "ABC-047",
+      "numeroEconomico": "10047",
+      "marcaEconomica": "Neoplan"
+    },
+    {
+      "id": "48",
+      "placa": "ABC-048",
+      "numeroEconomico": "10048",
+      "marcaEconomica": "Volvo"
+    },
+    {
+      "id": "49",
+      "placa": "ABC-049",
+      "numeroEconomico": "10049",
+      "marcaEconomica": "Mercedes-Benz"
+    },
+    {
+      "id": "50",
+      "placa": "ABC-050",
+      "numeroEconomico": "10050",
+      "marcaEconomica": "Scania"
+    },
+    {
+      "id": "19",
+      "placa": "ABC-040",
+      "numeroEconomico": "30003",
+      "marcaEconomica": "ado"
+    },
+    {
+      "id": 89,
+      "placa": "leonardo esteves",
+      "numeroEconomico": "pablo tinacos",
+      "marcaEconomica": "jesus sarmiento",
+      "esReparto": "No"
+    },
+    {
+      "id": 100,
+      "placa": "AB-HC-45",
+      "numeroEconomico": "3445",
+      "marcaEconomica": "er",
+      "esReparto": "No"
+    },
+    {
+      "id": 123421,
+      "placa": "14232142",
+      "numeroEconomico": "1242142",
+      "marcaEconomica": "21432142",
+      "esReparto": "No"
+    }
+  ]
+}

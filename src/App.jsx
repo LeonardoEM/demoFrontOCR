@@ -7,7 +7,9 @@ import{ Home } from './pages/Home'
 import Correctos  from './pages/Correctos'
 import Errores  from './pages/Errores'
 import Header from './components/Header'
-import Footer from './components/Footer'
+import ImagenAutobus from './pages/ImagenAutobus';
+
+//import Footer from './components/Footer'
 //import ProtectedRoute from './components/ProtectedRoute'
 import { useState } from 'react'
 
@@ -27,8 +29,9 @@ function App() {
           <Route path="/home" element={<Home user={user} setUser={setUser} />} />
           <Route path='/Correctos' element={<Correctos setUser={setUser}/>}/>
           <Route path='/Errores' element={<Errores setUser={setUser}/>}/>
+          <Route path="/imagen-autobus/:id" element={<ImagenAutobus />} />
         </Routes>
-        <Footer/>
+      {/* <Footer/>}*/}
       </Router>
       
     </div>

@@ -2194,10 +2194,31 @@ h1 {
  */
 figcaption,
 figure,
-main {
-  /* 1 */
-  display: block;
+App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+main {
+  flex: 1;
+  padding-bottom: 60px; /* espacio para que el contenido no choque con el footer */
+}
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  margin-top: auto;
+}
+
 
 /**
  * Add the correct margin in IE 8.
